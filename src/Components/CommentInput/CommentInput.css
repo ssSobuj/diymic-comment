@@ -1,0 +1,61 @@
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.input-box .input-name{
+    width: 100%;
+    border: blue solid 1px;
+    outline: none;
+    height: 20px;
+    border-radius: 5px;
+    font-size: inherit;
+
+    
+}
+.input-box .text-area{   
+    resize: none;
+    outline: none;
+    border: blue solid 1px;
+    border-radius: 5px; 
+    font-size: 14px;
+
+}
+
+.input-box button{
+    width: 100px;
+    border: blue solid 1px;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: inherit;
+    
+}
+.input-box button:hover{
+    border: rgb(241, 241, 247) solid 1px;
+    background-color: blue;
+    color: #fff;
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 850px){
+
+
+    .input-box button{
+        font-size: 25px;
+        color: #000;
+
+    }
+    .input-box .input-name{
+        font-size: 20px;
+        height: 25px;
+        padding: 15px 0;
+            
+    }
+    .input-box .text-area{   
+        font-size: 20px;
+    }
+      
+  }

@@ -1,0 +1,80 @@
+.main-show{
+    font-size: 16px;
+    width: 300px;
+    overflow-wrap: break-word;
+}
+
+.udate-coment{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    max-width: 300px;
+}
+
+.div-name{
+    display: flex;
+    align-items: center;
+    font-size: inherit;
+    gap: 5px;
+
+}
+.div-input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: inherit;
+    gap: 5px;
+    font-size: inherit;
+    
+
+    
+}
+.div-input p{
+    /* height: 200px; */
+    max-width: 100%;
+    font-size: 14px;
+
+}
+
+
+
+@media screen and (min-width: 450px) and (max-width: 850px){
+
+    
+    .udate-coment{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        max-width: 300px;
+
+    }
+    
+    .div-name{
+
+        font-size: 22px;
+        letter-spacing: 2px;
+
+
+    
+    }
+    .div-input{
+
+        font-size: 22px;
+        gap: 5px;
+        letter-spacing: 1.5px;
+        
+    
+        
+    }
+    .div-input p{
+        /* height: 200px; */
+        max-width: 100%;
+        font-size: 16px;
+    
+    }
+      
+  }
